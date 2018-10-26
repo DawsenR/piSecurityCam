@@ -5,8 +5,8 @@ from twilio.rest import Client
 # Your Account Sid and Auth Token from twilio.com/console
 
 def sendText(sendTo, message):
-    account_sid = 'AC46f131b5abd9b319efc9514bd0f4f7ea'
-    auth_token = '2252316456898b4dec75a2b2856a358f'
+    account_sid = 'your account Sid'
+    auth_token = 'your auth token'
     client = Client(account_sid, auth_token)
 
     message = client.messages \

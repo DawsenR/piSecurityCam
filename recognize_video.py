@@ -116,19 +116,19 @@ while True:
 			name = le.classes_[j]
 
 			cv2.imwrite('img1.jpg', frame)
-			if(name == "Dawsen"):
+			if(name == "your name"):
 				dawsenCount += 1
 			if(dawsenCount == 20):
 				#send_sms.sendText('+17146866635','Dawsen is home')
-				send_sms.sendText('+14696885310','Dawsen is home')
-			if(name == "Miranda"):
+				send_sms.sendText('+your number','Dawsen is home')
+			if(name == "friend name"):
 				dawsenCount += 1
 			if(mirandaCount == 20):
-				send_sms.sendText('+14696885310','Miranda is home')
+				send_sms.sendText('+friend number','Miranda is home')
 			if(name == "unkown"):
 				unknownCount += 1
 			if(unknownCount == 50):
-				send_sms.sendText('+14696885310','****  INTRUDER  ****\nuknown person in your home')
+				send_sms.sendText('+your number','****  INTRUDER  ****\nuknown person in your home')
 
 			# draw the bounding box of the face along with the
 			# associated probability
