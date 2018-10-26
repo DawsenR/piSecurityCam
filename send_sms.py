@@ -12,7 +12,7 @@ def sendText(sendTo, message):
     message = client.messages \
         .create(
              body=message,
-             from_='+18174978517',
+             from_='+account number',
              to=sendTo
          )
 
