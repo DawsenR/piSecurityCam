@@ -119,7 +119,7 @@ while True:
 			if(name == "your name"):
 				dawsenCount += 1
 			if(dawsenCount == 20):
-				#send_sms.sendText('+17146866635','Dawsen is home')
+				#send_sms.sendText('+friend number','Dawsen is home')
 				send_sms.sendText('+your number','Dawsen is home')
 			if(name == "friend name"):
 				dawsenCount += 1
