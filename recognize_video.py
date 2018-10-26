@@ -116,20 +116,19 @@ while True:
 			name = le.classes_[j]
 
 			cv2.imwrite('img1.jpg', frame)
-			loc = 'https://Users/dawsenrichins/Desktop/opencv-face-recognition/img1.jpg'
 			if(name == "Dawsen"):
 				dawsenCount += 1
 			if(dawsenCount == 20):
 				#send_sms.sendText('+17146866635','Dawsen is home')
-				send_sms.sendText('+17146866635','Dawsen is home',loc)
+				send_sms.sendText('+14696885310','Dawsen is home')
 			if(name == "Miranda"):
 				dawsenCount += 1
 			if(mirandaCount == 20):
-				send_sms.sendText('+14696885310','Miranda is home',loc)
+				send_sms.sendText('+14696885310','Miranda is home')
 			if(name == "unkown"):
 				unknownCount += 1
 			if(unknownCount == 50):
-				send_sms.sendText('+14696885310','****  INTRUDER  ****\nuknown person in your home',loc)
+				send_sms.sendText('+14696885310','****  INTRUDER  ****\nuknown person in your home')
 
 			# draw the bounding box of the face along with the
 			# associated probability
